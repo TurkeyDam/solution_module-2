@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    position: relative;
+    background-color: #A52A2A;
+    margin: auto;
+  }
+
+  #h2_1 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: aqua;
+    margin:0%;
+    border: solid 1px black;
+  }
+  #h2_2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: aqua;
+    margin: 0%;
+    border: solid 1px black;
+  }
+  #h2_3 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: aqua;
+    margin: 0%;
+    border: solid 1px black;
+  }
+
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  p {
+    background-color: #A52A2A;
+    width: 30%;
+    height: 50px;
+    margin: 50px;
+    font-family: Helvetica;
+    color: white;
+  }
+  
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .desktop {
+      width: 30%;
+      float: left;
+      border: 1px solid black;
+      margin-left: 30px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .tablet  {
+      float: left;
+      border: 1px solid black;
+      background-color: #A52A2A;
+      width: 49%;
+      margin-right: 10px;
+    }
+    .tablet2  {
+      float: left;
+      border: 1px solid black;
+      background-color: #A52A2A;
+      width: 49%;
+      margin-left: 5px;
+    }
+    .tablet3 {
+      width: 100%;
+      float: left;
+      border: 1px solid black;
+      background-color: #A52A2A;
+      margin-top: 30px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .mobile {
+      width: 100%;
+      border: 1px solid black;
+      background-color: #A52A2A;
+      margin-bottom: 30px;
+    }
+
+  }
